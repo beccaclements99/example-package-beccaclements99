@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# omit all data files stores in directory 
+data/
+
+#make no CSVs ever be detected
+*.csv
+
 # Distribution / packaging
 .Python
 build/
